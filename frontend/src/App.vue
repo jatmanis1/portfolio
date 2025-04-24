@@ -161,11 +161,11 @@ import Navbar from './components/Navbar.vue'
 import HeroSection from './components/HeroSection.vue'
 import About from './components/About.vue'
 import RecentWork from './components/RecentWork.vue'
-import P1 from './components/P1.vue'
-import P2 from './components/P2.vue'
-import P3 from './components/P3.vue'
-import P4 from './components/P4.vue'
-import ProjectsSection from './components/P4.vue'
+// import P1 from './components/P1.vue'
+// import P2 from './components/P2.vue'
+// import P3 from './components/P3.vue'
+// import P4 from './components/P4.vue'
+// import ProjectsSection from './components/P4.vue'
 import Skills from './components/Skills.vue'
 // }
 export default {
@@ -174,10 +174,10 @@ export default {
     HeroSection,
     About,
     RecentWork,
-    P1,
-    P2,
-    P3,
-    P4,
+    // P1,
+    // P2,
+    // P3,
+    // P4,
     Skills,
   },
   data() {
