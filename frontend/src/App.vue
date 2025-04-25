@@ -13,19 +13,23 @@
   <!-- <div class="w-full border-t border-gray-300 opacity-70 "></div> -->
   <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
 
-  <About />
   <!-- < About /> -->
   <!-- <recentwork> -->
+
+    
+  <Skills />
+<div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
+
   <RecentWork />
+  <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
   <!-- <P2 /> -->
 
   <!-- <P3 /> -->
   <!-- <P4 /> -->
 
 
-  <Skills />
-
-
+  <About />
+  <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
   <!-- Skills Section -->
 
   <!-- End Skills Section -->
@@ -62,7 +66,7 @@
             He built scalable APIs and implemented secure authentication systems that enhanced our application’s
             performance significantly.”
           </p>
-          <p class="text-sm text-gray-500">— Md Solaiman Hossain, Software Team Lead</p>
+          <p class="text-sm text-gray-500">— Piyush Duggal</p>
         </div>
       </div>
     </div>
@@ -85,7 +89,8 @@
     </div>
   </div>
   <!-- End Testimonial Section -->
-
+  <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
+<!-- 
   <div class="banner-1 flex h-full items-center">
     <div class="w-7/12 p-12">
       <h2 class="text-gray-700 md:text-6xl text-2xl font-Eczar mb-5 font-bold">
@@ -132,8 +137,8 @@
         </button>
       </div>
     </div>
-  </div>
-
+  </div> -->
+<Contact />
   <!-- </div> -->
 </template>
 
@@ -167,6 +172,8 @@ import RecentWork from './components/RecentWork.vue'
 // import P4 from './components/P4.vue'
 // import ProjectsSection from './components/P4.vue'
 import Skills from './components/Skills.vue'
+import Contact from './components/Contact.vue'
+// import Contact from './components/Contact.vue'
 // }
 export default {
   components: {
@@ -179,6 +186,7 @@ export default {
     // P3,
     // P4,
     Skills,
+    Contact,
   },
   data() {
     return {
