@@ -18,8 +18,8 @@
       <!-- Top 3 Projects -->
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
         <WorkCard v-for="(project, index) in topProjects" :key="index" :title="project.name"
-          :description="project.description" :icon="'home'" :img="project.image" :demoLink="project.demo"
-          :githubLink="project.github" :iconColor="'text-blue-700 dark:text-blue-300'" data-aos="fade-up"
+          :description="project.description" :icon="'home'" :img="project.image" :demoLink="project.website_link"
+          :githubLink="project.github_link" :iconColor="'text-blue-700 dark:text-blue-300'" data-aos="fade-up"
           :delay="index * 200" class="work-card mx-auto" />
       </div>
 
@@ -57,7 +57,7 @@
     </div> -->
   </section>
 </template>
-
+<!-- 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import VanillaTilt from 'vanilla-tilt'
@@ -110,6 +110,47 @@ const moreProjects = computed(() => projects.value.slice(0))
 onMounted(() => {
   AOS.init()
   VanillaTilt.init(document.querySelectorAll('[data-tilt]'))
+})
+</script> -->
+<script setup>
+import { ref, computed, onMounted } from 'vue'
+import VanillaTilt from 'vanilla-tilt'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+import { Sun, Moon } from 'lucide-vue-next'
+import WorkCard from './WorkCard.vue'
+import axios from 'axios'
+
+const toggleDark = () => {
+  document.documentElement.classList.toggle('dark')
+}
+
+const showModal = ref(false)
+
+// backend URL
+// const backendUrl = 'https://your-backend.com' // <-- replace with your actual backend URL
+const backendUrl = import.meta.env.VITE_BACKEND_URL
+
+const projects = ref([])
+
+const topProjects = computed(() => projects.value.slice(0))
+const moreProjects = computed(() => projects.value.slice(0))
+
+const fetchProjects = async () => {
+  try {
+    const response = await axios.get(`${backendUrl}/api/projects/`)
+    console.log('Projects:', response.data)  // Debugging line
+    projects.value = response.data || []  // assuming your backend returns { projects: [...] }
+  } catch (error) {
+    console.error('Failed to fetch projects:', error)
+  }
+}
+
+onMounted(() => {
+  AOS.init()
+  VanillaTilt.init(document.querySelectorAll('[data-tilt]'))
+  fetchProjects() // call API when mounted
 })
 </script>
 

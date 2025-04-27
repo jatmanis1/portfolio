@@ -28,6 +28,7 @@
   </section>
 </template>
 
+<!-- 
 <script setup>
 import { ref, onMounted } from 'vue'
 import AOS from 'aos'
@@ -45,6 +46,31 @@ const skills = ref([
 ])
 
 onMounted(() => {
+  AOS.init({ once: true, duration: 600 })
+})
+</script> -->
+<script setup>
+import { ref, onMounted } from 'vue'
+import axios from 'axios'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+
+const skills = ref([])
+// console.log($)
+const fetchSkills = async () => {
+  try {
+    const backendUrl = import.meta.env.VITE_BACKEND_URL
+    console.log('Backend URL:', backendUrl)
+    const response = await axios.get(`${backendUrl}/api/skills/`)
+    skills.value = response.data 
+    console.log(skills, response)  // Adjust if needed based on real API
+  } catch (error) {
+    console.error('Failed to fetch skills:', error)
+  }
+}
+
+onMounted(() => {
+  fetchSkills()
   AOS.init({ once: true, duration: 600 })
 })
 </script>

@@ -9,9 +9,12 @@
         <h3 class="text-xl font-semibold mb-2 text-center">{{ title }}</h3>
 
         <!-- Description -->
-        <p class="text-gray-600 dark:text-gray-300 text-sm text-center mb-4">
+        <!-- <p class="text-gray-800 dark:text-gray-300 text-sm text-center mb-4">
             {{ description }}
-        </p>
+        </p> -->
+        <p class="text-black dark:text-gray-300 text-base font-medium text-center mb-4">
+    {{ description }}
+</p>
 
         <!-- Buttons -->
         <div class="flex flex-wrap justify-center gap-3 mt-auto w-full">
