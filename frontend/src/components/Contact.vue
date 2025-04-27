@@ -74,7 +74,7 @@
   });
   const handleSubmit = async () => {
   try {
-    const response = await fetch('http://127.0.0.1:8000/trigger-email/', {
+    const response = await fetch('https://portfolio-backend-plx4.vercel.app/trigger-email/', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json'
