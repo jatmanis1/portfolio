@@ -8,6 +8,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.16",
     "@vueuse/motion": "^3.0.3",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.5",
