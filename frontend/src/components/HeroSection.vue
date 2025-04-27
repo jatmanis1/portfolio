@@ -35,11 +35,11 @@
                 </p>
 
                 <div class="md:flex gap-1 md:gap-10">
-                    <button class="btn btn-dark me-3 d-none d-md-inline-block">
+                    <button onclick="location.href='#work'" class="btn btn-dark me-3 d-none d-md-inline-block">
                         View My Work
                     </button>
-
-                    <button class="btn btn-outline-dark mb-3 mb-md-0">
+                    <!-- <button onclick="location.href='#work'" class="btn btn-outline-dark mb-3 mb-md-0"> -->
+                    <button onclick="location.href='#contact'" class="btn btn-outline-dark mb-3 mb-md-0">
                         Contact Me
                     </button>
                 </div>

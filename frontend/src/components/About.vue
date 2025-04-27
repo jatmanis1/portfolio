@@ -22,8 +22,8 @@
                             Build and deploy RESTful APIs and background workers that scale, with built-in observability
                             and testability.
                         </p>
-                        <a href="#" class="mt-4 inline-block text-sm text-blue-600 hover:underline transition">
-                            READ MORE ↳
+                        <a href="#work" class="mt-4 inline-block text-sm text-blue-600 hover:underline transition">
+                            MY WORK ↳
                         </a>
                     </div>
                 </div>
@@ -36,8 +36,8 @@
                             Build full-featured web apps using Flask and Django, model data efficiently with SQLAlchemy,
                             and harness the power of relational databases.
                         </p>
-                        <a href="#" class="mt-4 inline-block text-sm text-blue-600 hover:underline transition">
-                            READ MORE ↳
+                        <a href="#work" class="mt-4 inline-block text-sm text-blue-600 hover:underline transition">
+                            MY WORK ↳
                         </a>
                     </div>
                 </div>

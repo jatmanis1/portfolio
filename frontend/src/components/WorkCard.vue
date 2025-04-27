@@ -1,5 +1,5 @@
 <template>
-    <div class="work-card flex flex-col" data-tilt>
+    <div class="work-card flex flex-col">
         <!-- Image -->
         <div v-if="img" class="mb-4">
             <img :src="img" alt="project image" class="w-full h-32 object-contain mx-auto" />

@@ -9,7 +9,7 @@
       </div>
   
       <!-- Right content with Contact Me form -->
-      <div class="lg:w-5/12 w-full lg:pr-28 p-8 lg:p-12">
+      <div id="contact" class="lg:w-5/12 w-full lg:pr-28 p-8 lg:p-12">
         <!-- Contact Me Form -->
         <div class="contact-form-container mt-8 w-full max-w-md bg-white p-8 shadow-lg rounded-lg">
           <h2 class="text-xl font-semibold text-gray-700 mb-4">Contact Me</h2>
