@@ -1,5 +1,7 @@
 <template>
-    <section class="container py-10" id="skills">
+    <section class="min-h-screen bg-[#e0f2fe] text-gray-800 px-6 md:px-24">
+    
+    <!-- <section class="container py-10" id="skills"> -->
         <h2 class="text-2xl font-semibold text-primary mb-6 border-b pb-2">
             <i class="bi bi-tools mr-2"></i>My Skills
         </h2>

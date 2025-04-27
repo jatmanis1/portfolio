@@ -14,9 +14,13 @@
   <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
 
   <About />
+  <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
+
   <!-- < About /> -->
   <!-- <recentwork> -->
   <RecentWork />
+  <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
+
   <!-- <P2 /> -->
 
   <!-- <P3 /> -->
@@ -24,11 +28,14 @@
 
 
   <Skills />
+  <div class="w-full h-px bg-gradient-to-r from-blue-400 via-blue-200 to-blue-400 "></div>
+
 
 
   <!-- Skills Section -->
 
   <!-- End Skills Section -->
+   
   <!-- Testimonial Section -->
   <div class="space-y-4 grid place-items-center mt-16 text-center">
     <h3 class="text-4xl font-bold text-gray-900">What People Say</h3>
@@ -62,7 +69,7 @@
             He built scalable APIs and implemented secure authentication systems that enhanced our application’s
             performance significantly.”
           </p>
-          <p class="text-sm text-gray-500">— Md Solaiman Hossain, Software Team Lead</p>
+          <p class="text-sm text-gray-500">— Piyush Duggal, Software Team Lead</p>
         </div>
       </div>
     </div>
