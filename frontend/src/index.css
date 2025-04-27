@@ -1,0 +1,119 @@
+/* === Google Fonts === */
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+/* === Tailwind Layers === */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.banner-1 {
+  @apply px-5 pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #e0f2fe;
+}
+
+.banner-2 {
+  @apply px-5 pt-5 md:pt-10 3xl:px-36 2xl:px-36 xl:px-28 lg:px-24 md:px-16;
+  background-color: #e0f2fe;
+}
+
+.bg-yellowis {
+  background-color: #22c55e;
+}
+
+.hello-button {
+  background-color: #0ea5e9;
+  color: #ffffff;
+}
+
+.menu-button {
+  @apply 3xl:text-2xl 2xl:text-2xl xl:text-xl lg:text-xl md:text-xl font-bold font-work_sans hover:text-white;
+  color: #eab308;
+}
+
+.submit-button {
+  @apply border border-cyan-400 3xl:text-xl 2xl:text-xl lg:text-xl md:text-xl text-xs py-2 px-4 lg:py-4 lg:px-8 rounded-2xl font-work_sans font-semibold;
+  background-color: #f43f5e;
+  color: #ffffff;
+}
+
+.heading3 {
+  color: #520fef;
+  @apply md:text-5xl text-xl font-bold font-work_sans tracking-wide;
+}
+
+.project-title {
+  @apply text-orange-400 text-3xl md:text-4xl font-work_sans tracking-wide font-bold;
+}
+
+.card1 {
+  @apply bg-[#65d7f1] rounded-2xl md:flex place-items-center my-20 shadow-xl;
+  background: linear-gradient(135deg, #ffffff, #f7f9fa);
+  border-radius: 1rem;
+}
+
+.card-image {
+  @apply md:w-1/2 md:rounded-r-2xl md:rounded-l-none rounded-b-2xl flex;
+}
+
+.card1:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+  border: 1px solid #dee2e6;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.card1:hover .project-img {
+  transform: scale(1.05);
+}
+
+.btn-hover:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+
+@layer utilities {
+  .h-850 {
+    height: 900px;
+  }
+}
+
+.skill-card {
+  @apply rounded-xl overflow-hidden shadow-lg transition-all duration-300 ease-in-out bg-white;
+  backdrop-filter: blur(12px);
+  background: rgba(255, 255, 255, 0.85);
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+.skill-img {
+  width: 100%;
+  height: 160px;
+  object-fit: contain;
+  background-color: #f8f9fa;
+  padding: 12px;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-img {
+  transform: scale(1.05);
+}
+
+.badge {
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 0.375rem;
+}
+
+.bg-gradient-light {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+}
