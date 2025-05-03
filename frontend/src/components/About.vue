@@ -1,5 +1,5 @@
 <template>
-    <section class="min-h-screen bg-[#e0f2fe] text-gray-800 px-6 md:px-24">
+    <section id="about" class="min-h-screen bg-[#e0f2fe] text-gray-800 px-6 md:px-24">
         <div class="max-w-7xl mx-auto w-full h-full flex flex-col justify-center py-10">
             <!-- Title -->
             <div class="text-center mb-12">

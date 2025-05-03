@@ -2,13 +2,13 @@
 <template>
   <section id="work" class="min-h-screen bg-[#e0f2fe] text-gray-800 px-6 md:px-24">
     <!-- Toggle & Title -->
-    <div class="fixed top-4 right-6 z-50">
+    <!-- <div class="fixed top-4 right-6 z-50">
       <button @click="toggleDark"
         class="bg-white dark:bg-gray-800 border border-gray-200 dark:border-gray-600 p-2 rounded-full shadow-md transition-all duration-300">
         <Sun class="w-5 h-5 dark:hidden" />
         <Moon class="w-5 h-5 hidden dark:inline" />
       </button>
-    </div>
+    </div> -->
 
     <div class="max-w-7xl mx-auto">
       <h3 class="heading3 border-b-4 font-bold inline-block mb-12 text-blue-700">
