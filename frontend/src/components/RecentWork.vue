@@ -57,7 +57,6 @@
     </div> -->
   </section>
 </template>
-<!-- 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import VanillaTilt from 'vanilla-tilt'
@@ -111,7 +110,8 @@ onMounted(() => {
   AOS.init()
   VanillaTilt.init(document.querySelectorAll('[data-tilt]'))
 })
-</script> -->
+</script> <!-- 
+
 <script setup>
 import { ref, computed, onMounted } from 'vue'
 import VanillaTilt from 'vanilla-tilt'
@@ -152,7 +152,7 @@ onMounted(() => {
   VanillaTilt.init(document.querySelectorAll('[data-tilt]'))
   fetchProjects() // call API when mounted
 })
-</script>
+</script>-->
 
 <style scoped>
 .heading3 {
