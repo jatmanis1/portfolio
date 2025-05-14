@@ -28,7 +28,6 @@
   </section>
 </template>
 
-<!-- 
 <script setup>
 import { ref, onMounted } from 'vue'
 import AOS from 'aos'
@@ -48,7 +47,8 @@ const skills = ref([
 onMounted(() => {
   AOS.init({ once: true, duration: 600 })
 })
-</script> -->
+</script> <!-- 
+
 <script setup>
 import { ref, onMounted } from 'vue'
 import axios from 'axios'
@@ -73,6 +73,6 @@ onMounted(() => {
   fetchSkills()
   AOS.init({ once: true, duration: 600 })
 })
-</script>
+</script>-->
 
 <style scoped></style>
