@@ -72,35 +72,56 @@ const toggleDark = () => {
 
 const showModal = ref(false)
 
-const projects = ref([
-  {
-    name: "EasyHome",
-    description: "A home services platform using Django and React.",
-    image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
-    github: "https://github.com/yourgithub/easyhome",
-    demo: "https://github.com/demo/easyhome",
-  },
-  {
-    name: "QuizMaster",
-    description: "A quiz app built with Flask and Vue.js.",
-    image: "https://parallelstaff.com/wp-content/smush-webp/2024/06/What-Are-the-Benefits-of-Using-Python-for-GUI-Development.png.webp",
-    github: "https://github.com/yourgithub/quizmaster",
-    demo: "#",
-  },
-  {
-    name: "Project X",
-    description: "Yet another great project using Vue and Flask.",
-    image: "https://cdn-icons-png.flaticon.com/512/919/919851.png",
-    github: "#",
-    demo: "#",
-  },
-  {
-    name: "Secret Tool",
-    description: "A developer tool that simplifies backend tasks.",
-    image: "https://cdn-icons-png.flaticon.com/512/5968/5968350.png",
-    github: "#",
-    demo: "#",
-  },
+const projects = ref(
+  [
+    {
+        "id": 4,
+        "name": "Morse Code Arduino Communication System",
+        "description": "Built a two-way communication system using Morse code and Arduino boards.",
+        "tools_used": "Arduino, C++",
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-15",
+        "github_link": "https://github.com/jatmanis1/morse_code",
+        "website_link": null,
+        "created_at": "2025-04-27T13:36:12.677917Z",
+        "updated_at": "2025-04-27T13:36:12.677933Z"
+    },
+    {
+        "id": 3,
+        "name": "EasyEquity",
+        "description": "An app for managing and viewing equity and stock-related resources and extra filters for stocks which are only available at our site.",
+        "tools_used": "Django, Vue.js, Postgresql, Redis, Celery",
+        "start_date": "2024-02-01",
+        "end_date": "2024-12-01",
+        "github_link": "https://github.com/jatmanis1/easyequity",
+        "website_link": "https://easyequity.vercel.app/easyequity",
+        "created_at": "2025-04-27T13:32:18.474474Z",
+        "updated_at": "2025-04-27T13:35:17.019849Z"
+    },
+    {
+        "id": 2,
+        "name": "AxioStudy",
+        "description": "Website to provide and share study notes for students, with admin, student roles.",
+        "tools_used": "Django, Bootstrap, Vue.js Postgresql,",
+        "start_date": "2024-08-01",
+        "end_date": "2025-05-01",
+        "github_link": "https://github.com/jatmanis1/axiostudy",
+        "website_link": "https://axiostudy.vercel.app/",
+        "created_at": "2025-04-27T13:25:10.010068Z",
+        "updated_at": "2025-04-27T16:48:01.575877Z"
+    },
+    {
+        "id": 1,
+        "name": "AxioHome",
+        "description": "A FullStack platform for household services with admin, service professionals, and customer roles.",
+        "tools_used": "Flask, Vue.js, Postgresql, Redis, Celery",
+        "start_date": "2025-01-01",
+        "end_date": "2025-03-01",
+        "github_link": "https://github.com/jatmanis1/eh_live",
+        "website_link": "https://axiohome.vercel.app/",
+        "created_at": "2025-04-27T13:13:03.607814Z",
+        "updated_at": "2025-04-27T16:41:38.786205Z"
+    }
 ])
 
 const topProjects = computed(() => projects.value.slice(0))
