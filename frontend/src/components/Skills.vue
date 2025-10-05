@@ -34,11 +34,12 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const skills = ref([
+  
   {
     "name": "Python",
     "level": "Expert",
     "experience_years": "2",
-    "tools": "Pandas, NumPy, SciPy, Jupyter Notebook, Matplotlib, Seaborn, Plotly"
+    "tools": "Pandas, NumPy, SciPy, Jupyter Notebook, Matplotlib, Seaborn, Plotly, Flask, FastAPI"
   },
   {
     "name": "SQL & Databases",
@@ -50,7 +51,7 @@ const skills = ref([
     "name": "Data Visualization",
     "level": "Advanced",
     "experience_years": "2",
-    "tools": "Matplotlib, Seaborn, Plotly, Tableau, Power BI"
+    "tools": "Matplotlib, Seaborn, Plotly, Tableau, Power BI, Looker Studio"
   },
   {
     "name": "Statistics & Forecasting",
@@ -71,11 +72,25 @@ const skills = ref([
     "tools": "Pandas (data wrangling), Excel Automation (OpenPyXL), Airflow (basic)"
   },
   {
-    "name": "Version Control & Reporting",
+    "name": "LLM Integration & AI Agents",
+    "level": "Intermediate",
+    "experience_years": "1",
+    "tools": "LangChain, OpenAI API, Hugging Face Transformers, RAG (Retrieval-Augmented Generation), Agentic Workflows"
+  },
+  {
+    "name": "Automation & Workflows",
+    "level": "Advanced",
+    "experience_years": "1.5",
+    "tools": "Celery, Redis, Playwright, Selenium, Python Automation Scripts, Zapier (API integration)"
+  },
+  {
+    "name": "Version Control & Deployment",
     "level": "Advanced",
     "experience_years": "2",
-    "tools": "Git, GitHub, GitLab, Streamlit, Looker Studio"
+    "tools": "Git, GitHub, GitLab, GitHub Actions, Streamlit, Vercel, Docker"
   },
+
+
 
   { "name": "Programming & Analytics", "level": "Expert", "experience_years": "1", "tools": "Flask, Django, FastAPI, Pandas, NumPy, Selenium, BeautifulSoup" },
   { "name": "Python", "level": "Expert", "experience_years": "2", "tools": "Flask, Django, FastAPI, Pandas, NumPy, Selenium, BeautifulSoup" },
