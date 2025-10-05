@@ -34,42 +34,41 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const skills = ref([
-  
   {
     "name": "Python",
     "level": "Expert",
     "experience_years": "2",
-    "tools": "Pandas, NumPy, SciPy, Jupyter Notebook, Matplotlib, Seaborn, Plotly, Flask, FastAPI"
+    "tools": "Pandas, NumPy, SciPy, Jupyter Notebook, Matplotlib, Seaborn, Plotly, Django, Flask, FastAPI, Selenium, BeautifulSoup"
   },
   {
     "name": "SQL & Databases",
     "level": "Advanced",
     "experience_years": "2",
-    "tools": "PostgreSQL, MySQL, SQLite, SQLAlchemy"
+    "tools": "PostgreSQL, MySQL, SQLite, SQLAlchemy, Redis, Alembic, Excel"
   },
   {
     "name": "Data Visualization",
     "level": "Advanced",
     "experience_years": "2",
-    "tools": "Matplotlib, Seaborn, Plotly, Tableau, Power BI, Looker Studio"
+    "tools": "Matplotlib, Seaborn, Plotly, Looker Studio"
   },
   {
     "name": "Statistics & Forecasting",
     "level": "Intermediate",
     "experience_years": "1.5",
-    "tools": "Hypothesis Testing, Regression, Time Series, Prophet, ARIMA"
+    "tools": "Hypothesis Testing, Regression, Time Series"
   },
   {
     "name": "Machine Learning for Analytics",
     "level": "Intermediate",
     "experience_years": "1",
-    "tools": "Scikit-learn, Clustering (K-means, DBSCAN), Regression, Classification"
+    "tools": "Scikit-learn, Clustering (K-means), Regression, Classification"
   },
   {
     "name": "Data Engineering & ETL",
     "level": "Intermediate",
     "experience_years": "1",
-    "tools": "Pandas (data wrangling), Excel Automation (OpenPyXL), Airflow (basic)"
+    "tools": "Pandas (data wrangling), Excel Automation (OpenPyXL)"
   },
   {
     "name": "LLM Integration & AI Agents",
@@ -81,7 +80,19 @@ const skills = ref([
     "name": "Automation & Workflows",
     "level": "Advanced",
     "experience_years": "1.5",
-    "tools": "Celery, Redis, Playwright, Selenium, Python Automation Scripts, Zapier (API integration)"
+    "tools": "Celery, Redis, Playwright, Selenium, Python Automation Scripts"
+  },
+  {
+    "name": "API Development",
+    "level": "Advanced",
+    "experience_years": "2",
+    "tools": "Flask-RESTful, FastAPI, Postman, JWT, OpenAPI"
+  },
+  {
+    "name": "Frontend Development",
+    "level": "Intermediate",
+    "experience_years": "2",
+    "tools": "Vue.js, Bootstrap, Axios, Vite, HTML, JavaScript"
   },
   {
     "name": "Version Control & Deployment",
@@ -89,19 +100,14 @@ const skills = ref([
     "experience_years": "2",
     "tools": "Git, GitHub, GitLab, GitHub Actions, Streamlit, Vercel, Docker"
   },
-
-
-
-  { "name": "Programming & Analytics", "level": "Expert", "experience_years": "1", "tools": "Flask, Django, FastAPI, Pandas, NumPy, Selenium, BeautifulSoup" },
-  { "name": "Python", "level": "Expert", "experience_years": "2", "tools": "Flask, Django, FastAPI, Pandas, NumPy, Selenium, BeautifulSoup" },
-  { "name": "SQL & Databases", "level": "Expert", "experience_years": "2", "tools": "PostgreSQL, MySQL, SQLite, SQLAlchemy, Alembic" },
-  { "name": "API Development", "level": "Expert", "experience_years": "2", "tools": "Flask-RESTful, FastAPI, Postman, JWT, OpenAPI" },
-  { "name": "Frontend Development", "level": "Expert", "experience_years": "2", "tools": "Vue.js, Bootstrap, Axios, Vite, HTML, JavaScript" },
-  { "name": "Task Management & Asynchronous Processing", "level": "Expert", "experience_years": "2", "tools": "Celery, Redis" },
-  { "name": "Version Control", "level": "Expert", "experience_years": "2", "tools": "Git, GitHub, GitLab" },
-  { "name": "Security", "level": "Expert", "experience_years": "2", "tools": "JWT, HTTPS, Flask-Security" },
-  { "name": "Deployment & Hosting", "level": "Expert", "experience_years": "2", "tools": "Vercel, GitHub Actions" },
-])
+  {
+    "name": "Security",
+    "level": "Advanced",
+    "experience_years": "2",
+    "tools": "JWT, HTTPS, Flask-Security"
+  }
+]
+)
 
 onMounted(() => {
   AOS.init({ once: true, duration: 600 })
