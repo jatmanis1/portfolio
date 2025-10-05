@@ -34,6 +34,50 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 
 const skills = ref([
+  {
+    "name": "Python",
+    "level": "Expert",
+    "experience_years": "2",
+    "tools": "Pandas, NumPy, SciPy, Jupyter Notebook, Matplotlib, Seaborn, Plotly"
+  },
+  {
+    "name": "SQL & Databases",
+    "level": "Advanced",
+    "experience_years": "2",
+    "tools": "PostgreSQL, MySQL, SQLite, SQLAlchemy"
+  },
+  {
+    "name": "Data Visualization",
+    "level": "Advanced",
+    "experience_years": "2",
+    "tools": "Matplotlib, Seaborn, Plotly, Tableau, Power BI"
+  },
+  {
+    "name": "Statistics & Forecasting",
+    "level": "Intermediate",
+    "experience_years": "1.5",
+    "tools": "Hypothesis Testing, Regression, Time Series, Prophet, ARIMA"
+  },
+  {
+    "name": "Machine Learning for Analytics",
+    "level": "Intermediate",
+    "experience_years": "1",
+    "tools": "Scikit-learn, Clustering (K-means, DBSCAN), Regression, Classification"
+  },
+  {
+    "name": "Data Engineering & ETL",
+    "level": "Intermediate",
+    "experience_years": "1",
+    "tools": "Pandas (data wrangling), Excel Automation (OpenPyXL), Airflow (basic)"
+  },
+  {
+    "name": "Version Control & Reporting",
+    "level": "Advanced",
+    "experience_years": "2",
+    "tools": "Git, GitHub, GitLab, Streamlit, Looker Studio"
+  },
+
+  { "name": "Programming & Analytics", "level": "Expert", "experience_years": "1", "tools": "Flask, Django, FastAPI, Pandas, NumPy, Selenium, BeautifulSoup" },
   { "name": "Python", "level": "Expert", "experience_years": "2", "tools": "Flask, Django, FastAPI, Pandas, NumPy, Selenium, BeautifulSoup" },
   { "name": "SQL & Databases", "level": "Expert", "experience_years": "2", "tools": "PostgreSQL, MySQL, SQLite, SQLAlchemy, Alembic" },
   { "name": "API Development", "level": "Expert", "experience_years": "2", "tools": "Flask-RESTful, FastAPI, Postman, JWT, OpenAPI" },
