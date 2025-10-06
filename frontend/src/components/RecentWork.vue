@@ -73,19 +73,8 @@ const toggleDark = () => {
 const showModal = ref(false)
 
 const projects = ref(
-  [
-    {
-        "id": 4,
-        "name": "Morse Code Arduino Communication System",
-        "description": "Built a two-way communication system using Morse code and Arduino boards.",
-        "tools_used": "Arduino, C++",
-        "start_date": "2025-02-01",
-        "end_date": "2025-02-15",
-        "github_link": "https://github.com/jatmanis1/morse_code",
-        "website_link": null,
-        "created_at": "2025-04-27T13:36:12.677917Z",
-        "updated_at": "2025-04-27T13:36:12.677933Z"
-    },
+
+       
     {
         "id": 3,
         "name": "EasyEquity",
@@ -94,7 +83,7 @@ const projects = ref(
         "start_date": "2024-02-01",
         "end_date": "2024-12-01",
         "github_link": "https://github.com/jatmanis1/easyequity",
-        "website_link": "https://easyequity.vercel.app/easyequity",
+        "website_link": "https://easyequity.vercel.app",
         "created_at": "2025-04-27T13:32:18.474474Z",
         "updated_at": "2025-04-27T13:35:17.019849Z"
     },
@@ -121,6 +110,18 @@ const projects = ref(
         "website_link": "https://axiohome.vercel.app/",
         "created_at": "2025-04-27T13:13:03.607814Z",
         "updated_at": "2025-04-27T16:41:38.786205Z"
+    },
+  {
+   "id": 4,
+        "name": "Morse Code Arduino Communication System",
+        "description": "Built a two-way communication system using Morse code and Arduino boards.",
+        "tools_used": "Arduino, C++",
+        "start_date": "2025-02-01",
+        "end_date": "2025-02-15",
+        "github_link": "https://github.com/jatmanis1/morse_code",
+        "website_link": null,
+        "created_at": "2025-04-27T13:36:12.677917Z",
+        "updated_at": "2025-04-27T13:36:12.677933Z"
     }
 ])
 
