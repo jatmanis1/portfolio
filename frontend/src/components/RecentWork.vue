@@ -72,8 +72,7 @@ const toggleDark = () => {
 
 const showModal = ref(false)
 
-const projects = ref(
-
+const projects = ref([
        
     {
         "id": 3,
